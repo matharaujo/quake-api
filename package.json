@@ -1,0 +1,15 @@
+{
+  "name": "quake-api",
+  "version": "1.0.0",
+  "main": "src/server.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matharaujo/quake-api.git"
+  },
+  "author": "Mateus Araújo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matharaujo/quake-api/issues"
+  },
+  "homepage": "https://github.com/matharaujo/quake-api#readme"
+}
