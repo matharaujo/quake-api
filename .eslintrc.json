@@ -18,6 +18,11 @@
   ],
   "rules": {
     "linebreak-style": "off",
-    "prettier/prettier": "error"
+		"prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
   }
 }
