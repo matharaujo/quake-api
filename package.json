@@ -6,8 +6,8 @@
     "build": "tsc",
     "start:development": "ts-node-dev --ignore-watch node_modules src/server.ts",
     "lint": "eslint . --ext .ts",
-    "test": "jest",
-    "test:coverage": "jest --coverage"
+    "test": "jest --config=jest.config.js",
+    "test:coverage": "jest --coverage --config=jest.config.js"
   },
   "repository": {
     "type": "git",
