@@ -4,7 +4,7 @@ import RouterAdapter from '../../../../src/infrastructure/adapters/router-adapte
 import HttpProtocol from '../../../../src/infrastructure/protocols/http-protocol';
 
 describe('[Infrastructure / Adapters] - Router Adapter', (): void => {
-  test('[adapt] - Should return httpResponse', async () => {
+  test('[adapt] - Should return httpResponse', async (): Promise<void> => {
     class MockRouter {
       public static async route(): Promise<HttpProtocol> {
         return Http.ok({});
