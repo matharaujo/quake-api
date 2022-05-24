@@ -1,5 +1,4 @@
 ## <b>Quake API</b>
-#### Aplicação feita em NodeJS (Typescript) que será responsável por ler e formatar o arquivo de LOG do Game Quake e expor os dados via API.
 
 
 #
