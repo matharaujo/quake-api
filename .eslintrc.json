@@ -16,6 +16,13 @@
     "@typescript-eslint",
     "prettier"
   ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".ts"]
+      }
+    }
+  },
   "rules": {
     "linebreak-style": "off",
     "lines-between-class-members": "off",
@@ -23,6 +30,13 @@
       "error",
       {
         "endOfLine": "auto"
+      }
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never"
       }
     ]
   }
