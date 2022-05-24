@@ -26,6 +26,7 @@
   "rules": {
     "linebreak-style": "off",
     "lines-between-class-members": "off",
+    "no-param-reassign": "off",
 		"prettier/prettier": [
       "error",
       {
