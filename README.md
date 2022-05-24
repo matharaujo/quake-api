@@ -16,12 +16,13 @@
 ### <b>Rotas da aplicação:</b>
  <b>Importante</b>: Alterar a porta da aplicação conforme arquivo de variáveis de ambiente.
 
- - [Coletar Games](http://localhost:3000/api/games)
+ - [Coletar games](http://localhost:3000/api/games)
 
  
 #
 ### <b>Configuração das variáveis de ambiente:</b>
- - [Environment](.env)
+<b>Importante</b>: Deve ser criado um arquivo .env na raiz no projeto, seguindo as variáveis de ambiente do arquivo de exemplo:
+ - [Exemplo de variáveis de ambiente](.env.example)
 
 
 ### <b>Instalação das dependências:</b>
