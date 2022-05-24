@@ -24,7 +24,7 @@ class Parser {
     );
   }
 
-  private separateByRound(): GameParser[] {
+  public separateByRound(): GameParser[] {
     const lines = this.file
       .split('------------------------------------------------------------\n')
       .filter((line: string[]) => line.length > 7);
@@ -50,7 +50,7 @@ class Parser {
     });
   }
 
-  private static findPlayers(data: string[]): string[] {
+  public static findPlayers(data: string[]): string[] {
     const hasPlayer = (line: string) => /n\\.+\\t\\/.test(line);
     const playersData = data.filter(hasPlayer);
     let players: string[] = [];
@@ -63,20 +63,20 @@ class Parser {
     return players;
   }
 
-  private static findKill(data: string[]): string[] {
+  public static findKill(data: string[]): string[] {
     const hasKill = (line: string) => line.includes('Kill:');
 
     return data.filter(hasKill);
   }
 
-  private static countDie(player: string, data: string[]): number {
+  public static countDie(player: string, data: string[]): number {
     const hasWorld = (line: string) =>
       line.includes('<world>') && line.includes(player);
 
     return data.filter(hasWorld).length;
   }
 
-  private static killsBy(player: string, data: string[]): number {
+  public static killsBy(player: string, data: string[]): number {
     const hasWorld = (line: string) =>
       !line.includes('<world>') && line.includes(player);
 
@@ -89,7 +89,7 @@ class Parser {
     return kills.length;
   }
 
-  private static makeKills(players: string[], data: string[]): Kill {
+  public static makeKills(players: string[], data: string[]): Kill {
     const object = this.findKill(data);
     const totalKills = object.length;
     const kills: { [key: string]: number } = {};
