@@ -1,9 +1,9 @@
-# Quake API
+# <b>Quake API</b>
 #### Aplicação feita em NodeJS (Typescript) responsável por ler os logs do Game Quake e expor os dados em API.
 
 </br>
 
-### Dependências:
+### <b>Dependências:</b>
 * NodeJS
 * Typescript
 * Express
@@ -13,21 +13,23 @@
 * Prettier
 
 #
-### Rotas da aplicação:
+### <b>Rotas da aplicação:</b>
+ <b>Importante</b>: Alterar a porta da aplicação conforme arquivo de variáveis de ambiente
+
  - [Coletar Games](http://localhost:3000/api/games)
 
  
 #
-### Configuração das variáveis de ambiente:
+### <b>Configuração das variáveis de ambiente:</b>
  - [Environment](.env)
 
 
-### Instalação das dependências:
+### <b>Instalação das dependências:</b>
 ```bash
 $ npm install
 ```
 
-### Comandos para inicializar a aplicação:
+### <b>Comandos para inicializar a aplicação:</b>
 ```bash
 # Buildar aplicação
 $ npm run build
@@ -36,7 +38,7 @@ $ npm run build
 $ npm run start:development
 ```
 
-### Comandos para inicializar os testes:
+### <b>Comandos para inicializar os testes:</b>
 ```bash
 # Testes unitários
 $ npm run test
@@ -45,7 +47,7 @@ $ npm run test
 $ npm run test:coverage
 ```
 
-### Comandos para inicializar o Eslint:
+### <b>Comandos para inicializar o Eslint:</b>
 ```bash
 # Eslint
 $ npm run lint
