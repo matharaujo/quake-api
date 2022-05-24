@@ -8,4 +8,14 @@ export default (application: express.Express): void => {
   application.use('/api', router);
 
   GameRouter(router);
+
+  application.use(
+    '*',
+    (request: express.Request, response: express.Response): void => {
+      response.status(404).json({
+        error: 'Oops! An error has occurred!',
+        message: `Apparently this route ${request.originalUrl} not-exists!`,
+      });
+    }
+  );
 };
