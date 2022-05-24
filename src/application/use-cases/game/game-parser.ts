@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-import Game from '../../../domain/use-cases/game/contracts/game-contract';
+import GameParser from '../../../domain/use-cases/game/contracts/game-parser-contract';
 import Kill from '../../../domain/use-cases/game/contracts/kill-contract';
 
 class Parser {
@@ -13,7 +13,7 @@ class Parser {
     );
   }
 
-  public initialize(): Game[] {
+  public initialize(): GameParser[] {
     return this.separateByRound().reduce(
       (game: any, { round, ...data }: { round: number }): any => {
         game[`game_${round}`] = data;
@@ -24,7 +24,7 @@ class Parser {
     );
   }
 
-  private separateByRound(): Game[] {
+  private separateByRound(): GameParser[] {
     const lines = this.file
       .split('------------------------------------------------------------\n')
       .filter((line: string[]) => line.length > 7);
