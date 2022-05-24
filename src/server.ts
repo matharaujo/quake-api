@@ -1,7 +1,3 @@
-import Application from './infrastructure/configurations/application';
+import initializeApplication from './infrastructure/configurations/application';
 
-try {
-  new Application().initialize();
-} catch (error) {
-  console.log(error);
-}
+initializeApplication();

@@ -4,22 +4,14 @@ import initializeEnvironment from './environment';
 import initializeMiddlewares from './middlewares';
 import initializeRouter from './router';
 
-class Application {
-  private application: express.Express;
+export default (): void => {
+  const application = express();
 
-  public constructor() {
-    this.application = express();
-  }
+  initializeEnvironment();
+  initializeMiddlewares(application);
+  initializeRouter(application);
 
-  public initialize(): void {
-    initializeEnvironment();
-    initializeMiddlewares(this.application);
-    initializeRouter(this.application);
-
-    this.application.listen(process.env.PORT_API, () =>
-      console.log(`Server running at http://localhost:${process.env.PORT_API}/`)
-    );
-  }
-}
-
-export default Application;
+  application.listen(process.env.PORT_API, () =>
+    console.log(`Server running at http://localhost:${process.env.PORT_API}/`)
+  );
+};
