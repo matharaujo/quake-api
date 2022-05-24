@@ -1,17 +1,14 @@
-type HttpResponse<T = any> = {
-  statusCode: number;
-  body: T;
-};
+import HttpProtocol from '../protocols/http-protocol';
 
 class Http {
-  public static ok(body: any): HttpResponse {
+  public static ok(body: any): HttpProtocol {
     return {
       statusCode: 200,
       body,
     };
   }
 
-  public static badRequest(error: Error): HttpResponse {
+  public static badRequest(error: Error): HttpProtocol {
     return {
       statusCode: 400,
       body: {
@@ -20,7 +17,7 @@ class Http {
     };
   }
 
-  public static serverError(error: Error): HttpResponse {
+  public static serverError(error: Error): HttpProtocol {
     return {
       statusCode: 500,
       body: {
