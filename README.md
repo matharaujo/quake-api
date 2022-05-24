@@ -21,7 +21,7 @@
 ### <b>Rotas da aplicação:</b>
  <b>Importante</b>: Alterar a porta da aplicação conforme arquivo de variáveis de ambiente.
 
- - [Coletar Games] - http://localhost:8000/api/games
+ - [Coletar Games] - GET / http://localhost:8000/api/games
 
 
 ### <b>Configuração das variáveis de ambiente:</b>
