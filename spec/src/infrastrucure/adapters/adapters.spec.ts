@@ -1,7 +1,7 @@
-import Http from '../../../src/infrastructure/helpers/http';
-import RouterAdapter from '../../../src/infrastructure/adapters/router-adapter';
+import Http from '../../../../src/infrastructure/helpers/http';
+import RouterAdapter from '../../../../src/infrastructure/adapters/router-adapter';
 
-import HttpProtocol from '../../../src/infrastructure/protocols/http-protocol';
+import HttpProtocol from '../../../../src/infrastructure/protocols/http-protocol';
 
 describe('[Infrastructure / Adapters] - Router Adapter', (): void => {
   test('[adapt] - Should return httpResponse', async () => {

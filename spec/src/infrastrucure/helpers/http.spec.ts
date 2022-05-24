@@ -1,6 +1,6 @@
-import Http from '../../../src/infrastructure/helpers/http';
+import Http from '../../../../src/infrastructure/helpers/http';
 
-import HttpProtocol from '../../../src/infrastructure/protocols/http-protocol';
+import HttpProtocol from '../../../../src/infrastructure/protocols/http-protocol';
 
 describe('[Infrastructure / Helpers] - Http', (): void => {
   test('[ok] - Should return httpResponse', async () => {
