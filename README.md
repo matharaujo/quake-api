@@ -1,5 +1,5 @@
 # Quake API
-#### Aplicação feita em NodeJS (Typescript) responsável por ler os logs do Game Quake e expor os dados em API
+#### Aplicação feita em NodeJS (Typescript) responsável por ler os logs do Game Quake e expor os dados em API.
 
 </br>
 
@@ -12,6 +12,11 @@
 * Eslint
 * Prettier
 
+#
+### Rotas da aplicação:
+ - [Coletar Games](http://localhost:3000/api/games)
+
+ 
 #
 ### Configuração das variáveis de ambiente:
  - [Environment](.env)
