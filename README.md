@@ -25,7 +25,7 @@
 
 #
 ### <b>Configuração das variáveis de ambiente:</b>
-<b>Importante</b>: Deve ser criado um arquivo .env na raiz no projeto, seguindo as variáveis de ambiente do arquivo de exemplo:
+<b>Importante</b>: É necessário ser criado um arquivo .env na raiz no projeto, seguindo as variáveis de ambiente do arquivo de exemplo:
  - [Exemplo de variáveis de ambiente](.env.example)
 
 
