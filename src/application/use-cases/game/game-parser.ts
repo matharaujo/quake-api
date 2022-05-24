@@ -16,7 +16,7 @@ class Parser {
   public initialize(): GameParser[] {
     return this.separateByRound().reduce(
       (game: any, { round, ...data }: { round: number }): any => {
-        game[`game_${round}`] = data;
+        game[`game${round}`] = data;
 
         return game;
       },
