@@ -1,5 +1,4 @@
 type Game = {
-  round: number;
   totalKills: number;
   players: string[];
   kills: {
