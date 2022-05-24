@@ -12,7 +12,8 @@ class Http {
     return {
       statusCode: 500,
       body: {
-        error: error.message,
+        error: `Oops! An error has occurred!`,
+        message: error.message,
       },
     };
   }
