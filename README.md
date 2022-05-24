@@ -16,7 +16,6 @@
 ### Configuração das variáveis de ambiente:
  - [Environment](.env)
 
-</br>
 
 ### Instalação das dependências:
 ```bash
