@@ -2,8 +2,6 @@
 #### Aplicação feita em NodeJS (Typescript) responsável por ler os logs do Game Quake e expor os dados em API.
 
 
-</br>
-
 #
 ### <b>Dependências:</b>
 * NodeJS
