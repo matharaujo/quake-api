@@ -1,7 +1,6 @@
 ## <b>Quake API</b>
 
 
-#
 ### <b>Dependências:</b>
 * NodeJS
 * Typescript
