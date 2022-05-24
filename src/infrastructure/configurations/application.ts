@@ -11,7 +11,8 @@ export default (): void => {
   initializeMiddlewares(application);
   initializeRouter(application);
 
-  application.listen(process.env.PORT_API, () =>
-    console.log(`Server running at http://localhost:${process.env.PORT_API}/`)
+  const port = process.env.PORT_API || 8000;
+  application.listen(port, () =>
+    console.log(`Server running at http://localhost:${port}/`)
   );
 };
