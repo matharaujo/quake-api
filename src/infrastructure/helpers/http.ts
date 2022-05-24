@@ -8,15 +8,6 @@ class Http {
     };
   }
 
-  public static badRequest(error: Error): HttpProtocol {
-    return {
-      statusCode: 400,
-      body: {
-        error: error.message,
-      },
-    };
-  }
-
   public static serverError(error: Error): HttpProtocol {
     return {
       statusCode: 500,
