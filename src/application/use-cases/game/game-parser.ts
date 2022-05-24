@@ -8,7 +8,7 @@ class Parser {
 
   constructor() {
     this.file = fs.readFileSync(
-      `${__dirname}/../../../../files/games`,
+      `${__dirname}/../../../../files/games.log`,
       'utf-8'
     );
   }
