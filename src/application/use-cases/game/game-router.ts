@@ -5,5 +5,5 @@ import RouterAdapter from '../../../infrastructure/adapters/router-adapter';
 import Controller from './game-controller';
 
 export default (router: express.Router): void => {
-  router.get('/', RouterAdapter.adapt(Controller.findGames));
+  router.get('/games', RouterAdapter.adapt(Controller.findGames));
 };
