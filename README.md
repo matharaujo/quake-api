@@ -1,9 +1,10 @@
-# <b>Quake API</b>
+## <b>Quake API</b>
 #### Aplicação feita em NodeJS (Typescript) responsável por ler os logs do Game Quake e expor os dados em API.
 
 
 </br>
 
+#
 ### <b>Dependências:</b>
 * NodeJS
 * Typescript
@@ -14,6 +15,7 @@
 * Prettier
 
 
+#
 ### <b>Importante:</b>
 É necessário adicionar o arquivo de log games.log na pasta files antes de executar a aplicação.
 
