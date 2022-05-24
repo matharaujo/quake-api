@@ -13,7 +13,7 @@
 
 #
 ### <b>Rotas da aplicação:</b>
- <b>Importante</b>: É necessário alterar a porta da URL conforme a variável PORT_API no arquivo de variáveis de ambiente.
+ <b>Importante</b>: É necessário alterar a porta da *URL* conforme a variável *PORT_API* no arquivo de variáveis de ambiente.
 
  - [Coletar Games] - GET / http://localhost:8000/api/games
 
@@ -25,7 +25,7 @@
 
 #
 ### <b>Configuração das variáveis de ambiente:</b>
-<b>Importante</b>: É necessário ser criado um arquivo .env na raiz no projeto, seguindo as variáveis de ambiente do arquivo de exemplo:
+<b>Importante</b>: É necessário ser criado um arquivo *.env* na raiz no projeto, seguindo as variáveis de ambiente do arquivo de exemplo:
  - [Exemplo de variáveis de ambiente](.env.example)
 
 
