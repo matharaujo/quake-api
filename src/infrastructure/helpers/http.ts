@@ -12,7 +12,7 @@ class Http {
     return {
       statusCode: 500,
       body: {
-        error: `Oops! An error has occurred!`,
+        error: 'Oops! An error has occurred!',
         message: error.message,
       },
     };
