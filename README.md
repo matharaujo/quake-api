@@ -42,8 +42,8 @@ $ npm install
 # Buildar aplicação
 $ npm run build
 
-# Modo desenvolvimento
-$ npm run start:development
+# Iniciar aplicação
+$ npm run start
 ```
 
 
