@@ -12,15 +12,15 @@
 
 
 #
+### <b>Arquivo de LOG:</b>
+<b>Importante</b>: É necessário adicionar o arquivo de LOG *games.log* na pasta *files* que se encontra na raiz do projeto.
+
+
+#
 ### <b>Rotas da aplicação:</b>
  <b>Importante</b>: É necessário alterar a porta da *URL* conforme a variável *PORT_API* no arquivo de variáveis de ambiente.
 
  https://www.getpostman.com/collections/7249181e57f961813a8e
-
-
-#
-### <b>Arquivo de LOG:</b>
-<b>Importante</b>: É necessário adicionar o arquivo de LOG *games.log* na pasta *files* que se encontra na raiz do projeto.
 
 
 #
