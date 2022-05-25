@@ -15,7 +15,7 @@
 ### <b>Rotas da aplicação:</b>
  <b>Importante</b>: É necessário alterar a porta da *URL* conforme a variável *PORT_API* no arquivo de variáveis de ambiente.
 
- - [Coletar Games] - *GET* / http://localhost:8000/api/games
+ https://www.getpostman.com/collections/7249181e57f961813a8e
 
 
 #
